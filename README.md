@@ -4,7 +4,7 @@ This [Docker](https://www.docker.com) image can be used to test [Ansible](https:
 
 ## Supported tags
 
-* 16.04
+* latest
 * 18.04
 
 ## Usage
@@ -12,7 +12,7 @@ This [Docker](https://www.docker.com) image can be used to test [Ansible](https:
 Run the container as a daemon
 
 ```console
-docker run --cap-add SYS_ADMIN --detach --name ubuntu-18.04 --rm --volume /sys/fs/cgroup:/sys/fs/cgroup:ro dhoppe/molecule-ubuntu:18.04
+docker run --cap-add SYS_ADMIN --detach --name ubuntu-18.04 --rm --volume /sys/fs/cgroup:/sys/fs/cgroup:ro dhoppe/molecule-ubuntu-18.04
 ```
 
 Enter the container
