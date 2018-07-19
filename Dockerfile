@@ -1,5 +1,7 @@
 FROM ubuntu:18.04
 
+LABEL maintainer="Dennis Hoppe"
+
 ENV container docker
 ENV LC_ALL C
 ENV DEBIAN_FRONTEND noninteractive
