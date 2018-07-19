@@ -10,7 +10,7 @@ RUN sed -i 's/# deb/deb/g' /etc/apt/sources.list
 
 RUN apt-get update \
     && apt-get upgrade -y \
-    && apt-get install -y systemd \
+    && apt-get install -y iproute2 systemd \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
